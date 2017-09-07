@@ -81,7 +81,7 @@ body {
     position: fixed;
     transform: rotate(90deg) translateX(860px);
     transform-origin: top right;
-    top: 10px;
+    top: 8px;
     right: 15px;
     z-index: 3;
 }
