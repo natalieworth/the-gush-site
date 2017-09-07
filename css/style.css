@@ -1,0 +1,268 @@
+body {
+  background-color: #FFFF55;
+  margin: 0 auto;
+}
+
+.hero {
+  position: relative;
+  /*border: dashed 5px pink;*/
+  height: 700px;
+  /*overflow: visible;*/
+}
+
+.bye-jordan {
+  height: 180px;
+  z-index: 2;
+  position: fixed;
+  top: -20px;
+  left: -10px;
+}
+
+.grey-box {
+  height: 500px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.wtf {
+  height: 300px;
+  position: absolute;
+  top: 380px;
+  right: 150px;
+}
+
+.group {
+  height: 500px;
+  position: absolute;
+  bottom: -66px;
+  left: -20px;
+}
+
+.beaver {
+  height: 250px;
+  position: absolute;
+  top: 160px;
+  right: 450px;
+}
+
+.robot-soccer {
+  height: 300px;
+  position: absolute;
+  top: 70px;
+  right: 10px;
+}
+
+.face {
+  position: absolute;
+  height: 200px;
+  top: 90px;
+  left: 20px;
+}
+
+.surfboard {
+  position: absolute;
+  height: 180px;
+  bottom: -10px;
+  right: 90px;
+  transform-origin: center;
+  transform: rotate(16deg)
+}
+
+.navigation a {
+  margin-right: 100px;
+  font-size: 1.45em;
+  color: #FF4220;
+  font-family: Nova Slim;
+  text-decoration: none;
+}
+
+.navigation {
+    position: fixed;
+    transform: rotate(90deg) translateX(860px);
+    transform-origin: top right;
+    top: 10px;
+    right: 15px;
+    z-index: 3;
+}
+
+.quotes {
+  position: relative;
+  height: 3790px;
+  /*overflow: visible;*/
+  margin: 60px;
+  margin-bottom: 100px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#148be5+1,e22dcd+100 */
+  background: #148be5; /* Old browsers */
+  background: -moz-linear-gradient(top,  #148be5 1%, #e22dcd 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #148be5 1%,#e22dcd 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #148be5 1%,#e22dcd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#148be5', endColorstr='#e22dcd',GradientType=0 ); /* IE6-9 */
+}
+
+p {
+  position: relative;
+  font-family: 'Nova Slim', cursive;
+  font-size: 3em;
+  color: #ffff55;
+  letter-spacing: -.8px;
+  z-index: 99;
+  /*text-shadow: 2px 2px 15px black;*/
+}
+
+.failing-robots {
+  position: absolute;
+  height: 250px;
+  top: 20px;
+  left: 30px;
+  mix-blend-mode: soft-light;
+}
+
+.jordan-01 {
+  position: absolute;
+  height: 300px;
+  top: 145px;
+  right: 220px;
+  mix-blend-mode: soft-light;
+}
+
+.restaurant {
+  position: absolute;
+  height: 200px;
+  top: 350px;
+  left: 200px;
+  mix-blend-mode: soft-light;
+}
+
+.bingo {
+  position: absolute;
+  height: 200px;
+  top: 480px;
+  right: 100px;
+  mix-blend-mode: soft-light;
+}
+
+.avocado {
+  position: absolute;
+  height: 300px;
+  top: 600px;
+  left: 100px;
+  mix-blend-mode: soft-light;
+}
+
+.peace-out{
+position: absolute;
+height: 200px;
+top: 850px;
+right: 100px;
+mix-blend-mode: soft-light;
+}
+
+.pepe {
+  position: absolute;
+  height: 450px;
+  top: 1030px;
+  left: 300px;
+  mix-blend-mode: soft-light;
+}
+
+.rbandjordan {
+  position: absolute;
+  height: 300px;
+  top: 1600px;
+  right: 100px;
+  mix-blend-mode: soft-light;
+}
+
+.harry-potter {
+  position: absolute;
+  height: 240px;
+  top: 1990px;
+  left: 100px;
+  mix-blend-mode: soft-light;
+}
+
+.margin {
+  padding: 30px;
+  position: relative;
+  height: 2000px;
+}
+
+.things-jordan-hates {
+  background-color: #0000FF;
+  background-clip:content-box;
+  border: none;
+  position: relative;
+  height: 810px;
+  z-index: 8;
+  margin: 0 auto;
+}
+
+.tjh {
+  position: absolute;
+  height: 800px;
+  opacity: 0.95;
+  mix-blend-mode: multiply;
+}
+
+h1 {
+  position: absolute;
+  color: #ffffff;
+  font-size: 2.5em;
+  font-weight: 400;
+  font-family: 'Space Mono', cursive;
+  text-align: left;
+  padding: 140px 50px 100px 300px;
+  z-index: 10;
+  line-height: 1.5em;
+  opacity: 0.9;
+}
+
+.cat-cry {
+  position: absolute;
+  height: 250px;
+  top: 2200px;
+  right: 100px;
+  mix-blend-mode: soft-light;
+}
+
+.group-photo {
+  position: absolute;
+  height: 390px;
+  top: 2340px;
+  left: 30px;
+  mix-blend-mode: soft-light;
+}
+
+.surprised {
+  position: absolute;
+  height: 350px;
+  top: 2550px;
+  right: 60px;
+  mix-blend-mode: soft-light;
+}
+
+.hat-jordan {
+  position: absolute;
+  height: 250px;
+  top: 2860px;
+  left: 120px;
+  mix-blend-mode: soft-light;
+}
+
+.dogge {
+  height: 180px;
+  z-index: 11;
+  position: absolute;
+  bottom: 30px;
+  right: 600px;
+  height: 100px;
+}
+
+.kazookid {
+  height: 400px;
+  position: absolute;
+  top: 3070px;
+  right: 140px;
+  mix-blend-mode: soft-light;
+}
